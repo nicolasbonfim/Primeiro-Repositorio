@@ -20,3 +20,8 @@ this altera o propio botao
 
 onmouseover serve para quando o mouse esta sobre um elemento
 onmouseout serve para quando  tirar o mouse de um elemento
+
+onkeydown o evento acontece quando apertar uma tecla
+(se segurar uma tecla ela aparece varias vezes)
+
+onkeyup o vento acontece quando soltar uma tecla
