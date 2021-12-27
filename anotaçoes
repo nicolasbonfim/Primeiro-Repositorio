@@ -1,0 +1,22 @@
+offsetHeight/width tamanho da barra de rolagem, padding horizontal, bordas e largura do elemento
+
+clientWitdh a largura do conteudo excluindo o scroll bar
+
+clientHeight a altura do conteudo excluindo o scroll bar, borda, margin
+
+scrollHeight/Width da o tamanho real do texto
+
+window serve para altera a propia tela
+
+scrollTop serve para mostrar a posiçao do scroll em um elemento na vertical
+
+scrollLeft serve para mostrar a posiçao do scroll em um elemento na horizontal
+
+window.scrollY / scrollX serve para ver o scroll na tela inteira
+
+scrolTo(0, 0); serve para mandar o scroll de um elemento em uma posiçao
+
+this altera o propio botao
+
+onmouseover serve para quando o mouse esta sobre um elemento
+onmouseout serve para quando  tirar o mouse de um elemento
