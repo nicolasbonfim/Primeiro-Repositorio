@@ -25,3 +25,7 @@ onkeydown o evento acontece quando apertar uma tecla
 (se segurar uma tecla ela aparece varias vezes)
 
 onkeyup o vento acontece quando soltar uma tecla
+
+classList serve para
+
+style muda o estilo do elemento.

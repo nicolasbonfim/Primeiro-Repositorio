@@ -36,7 +36,29 @@ function digitou(e) {
     console.log(texto);
    }
 }
+//aula16 
+function Azul(){
+    limpar();
+    document.getElementById("titulo").classList.add('azul');
+}
+function Vermelho() {
+    limpar();
+    document.getElementById("titulo").classList.add('vermelho');
+}
+function Verde () {
+    limpar();
+    document.getElementById("titulo").classList.add('verde');
+}
+function limpar() {
+    document.getElementById("titulo").classList.remove('azul');
+    document.getElementById("titulo").classList.remove('vermelho');
+    document.getElementById("titulo").classList.remove('verde');
+}
 //aula16
+function mostrarTelefone(elemento) {
+    elemento.style.display = 'none';
+    document.getElementById("titulo").style.display = "block";
+}
 
     
 
