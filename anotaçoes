@@ -29,3 +29,29 @@ onkeyup o vento acontece quando soltar uma tecla
 classList serve para
 
 style muda o estilo do elemento.
+
+como fazer uma array; array é uma lista de elementos
+ let carros = ['palio','ferrai','uno','corolla']
+
+console.log(carros[0])
+
+para pegar elementos dentro de itens de uma array.
+console.log(ingredientes[1][0]);
+
+array é uma listagem NUMERADA e objeto e uma listagem NOMEADA
+
+para criar um objeto.
+let carro = {
+    nome:'Fiat',
+    modelo:'Uno',
+    peso: '800kg'
+};
+console.log(carro.nome);
+
+while é enquanto aquilo for atendido
+
+length serve para mostrar quantos caracteris tem uma string
+
+
+
+
