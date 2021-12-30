@@ -52,6 +52,35 @@ while é enquanto aquilo for atendido
 
 length serve para mostrar quantos caracteris tem uma string
 
+slice serve para pegar um pedaço da string da onde voce
+quer até onde voce quer.
+
+replace serve para trocar uma palavra por outra
+
+toUpperCase() deixa uma frase maiuscula
+
+trim() tira todos os espaços.
+
+toString() transforma um numero em uma string e array
+
+toFixed arredonda um numero depois do ponto
+(voce pode escolhe as casas decimais)
+
+parseInt() transforma uma string em um numero inteiro
+
+parseFloat() transforma uma string em um numero real
+
+indexOf() procura um item e retorna a posiçao
+(utilizado mais em Arrays)
+
+pop() remove o ultimo item de uma Array
+
+shift() remove o primeiro item de uma Array
+
+push() adiciona um item em uma Array
+
+
+
 
 
 

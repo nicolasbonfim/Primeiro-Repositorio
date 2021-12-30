@@ -60,6 +60,7 @@ function mostrarTelefone(elemento) {
     document.getElementById("titulo").style.display = "block";
 }
 //aula17
+/*
 let carros = [
     {nome:'Fiat',modelo:'Palio'},
     {nome:'Fiat',modelo:'uno'},
@@ -116,7 +117,7 @@ switch(dia) {
 //aula20
 //for loop
 //for loop array
-/*
+
 let carrinhos = ['ferrari', 'palio', 'fusca', 'corola' ];
 
 let html = '<ul>';
@@ -132,7 +133,7 @@ html += '</ul>';
 document.getElementById("lojaDeCarros").innerHTML = html;
 
 //aula21
-/*
+
 let a = '';
 
 let c = 0;
@@ -147,7 +148,7 @@ for(let c = 1;c <= 10;c++)
 html += "Numero: "+c+"<br/>"
 
 document.getElementById("demo").innerHTML = a;
-*/
+
 
 //aula22
 
@@ -162,8 +163,31 @@ if (nome.indexOf('nicolas') > -1) {
 }
 
 console.log(resultado);
+*/
 
+//aula23
+/*
+let nome = "nicolas correa bonfim"
 
+let resultado = nome.split(' ');
+console.log("resultado", resultado);
+
+//aula23
+
+let n = "25.9";
+
+let res = parseInt(n) + 5;
+console.log(res);
+*/
+//aula24
+
+let lista = ['ovo', 'farinha', 'massa', 'corante'];
+
+lista[4] = 'Ovos';
+
+let res = lista;
+
+console.log(res);
 
 
     
