@@ -79,8 +79,29 @@ shift() remove o primeiro item de uma Array
 
 push() adiciona um item em uma Array
 
+delete.coisa serve para remover um item sem tirar o 
+slot dele
 
+coisa.splice(0, 0) remove o item e o slot de uma array
 
+coisa.sort deixa itens em ordem alfabetica
+
+coisa.map vai rodar uma funçao em todos os itens de um array
+e gerar um novo array
+
+coisa.filter roda uma funçao e vai retorna 1 valor false ou
+true porem cria um novo array
+
+coisa.every roda uma funçao e vai retorna um valor false ou
+true e nao cria um novo array, só é true se todos forem true
+
+coisa.some retorna verdadeiro se pelo menos 1 item for true
+
+find encontra um item
+
+findIndex retorna a posiçao de um item
+
+Date mostra a data e hora
 
 
 

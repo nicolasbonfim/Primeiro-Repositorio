@@ -178,19 +178,57 @@ let n = "25.9";
 
 let res = parseInt(n) + 5;
 console.log(res);
-*/
+
 //aula24
 
-let lista = ['ovo', 'farinha', 'massa', 'corante'];
+let lista = [45, 4, 9, 16, 25];
+let lista2 = []
 
-lista[4] = 'Ovos';
+lista2 = lista.filter(function(item){
+    if (item < 20){
+        return true;
+    }else {
+        return false;
+    }
+});
+let res = lista2;
 
-let res = lista;
+//aula24
+console.log(res);
+
+let lista = [45, 4, 9, 16, 25];
+let lista2 = []
+
+lista2 = lista.every(function(item){
+    return(item > 3)? true:false;
+});
+let res = lista2;
+
+console.log(res);
+aula25
+
+
+let lista = [
+    {id:1,nome: 'nicolas', sobrenome: 'correa'},
+    {id:2,nome: 'Weslei', sobrenome: 'Bruno'},
+    {id:3,nome: 'Daiane', sobrenome: 'zabini'}
+];
+
+let pessoa = lista.find(function(item){
+    return (item.nome == 'nicolas' )? true:false;
+})
+
+let res = pessoa;
 
 console.log(res);
 
+aula26
+*/
 
-    
+let d = new Date(); 
 
+let novoValor = d.getDay()
+
+console.log(novoValor);
 
 
