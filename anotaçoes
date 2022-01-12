@@ -103,5 +103,8 @@ findIndex retorna a posiçao de um item
 
 Date mostra a data e hora
 
+round arredonda o numero
 
+clearInterval para o código
 
+setTimeout espera o tempo e roda um numero X

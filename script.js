@@ -1,3 +1,4 @@
+/*
 //aula12
 function trocarImagem(filename, animalname) {
     document.querySelector('.imagem').setAttribute('src', 'images/' + filename);
@@ -223,12 +224,59 @@ let res = pessoa;
 console.log(res);
 
 aula26
-*/
 
-let d = new Date(); 
 
-let novoValor = d.getDay()
-
+let novoValor = Math.floor(Math.random(0) * 45);
 console.log(novoValor);
 
+//aula27
 
+let timer;
+
+function comecar() {
+    timer = setInterval(showTime, 10);
+}
+
+function parar() {
+    clearInterval(timer);
+
+}
+
+function showTime() {
+    let d = new Date();
+    let s = d.getSeconds();
+    let m = d.getMilliseconds();
+
+    let txt =s+':'+m;
+
+    document.querySelector('#timers').innerHTML = txt;
+}
+
+
+//aula28
+let timer;
+
+
+function rodar() {
+    timer = setTimeout(function() {
+        document.querySelector('#timers').innerHTML = 'rodou';
+
+    },2000);
+}
+
+function parar() {
+    clearTimeout(timer);
+}
+
+*/
+
+//aula29
+
+
+let nome = "nicolas";
+let idade = 11;
+
+
+let frase = ` meu nome é ${nome} eu tenho ${idade} anos e ano que vem eu faço`
+
+ console.log(frase);
