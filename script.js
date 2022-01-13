@@ -272,11 +272,45 @@ function parar() {
 
 //aula29
 
+/*
+let pessoa = {
+    nome: 'nicolas',
+    sobrenome: 'correa',
+    idade: 11,
+    social: {
+        facebook: 'nicolas123',
+        instagram: {
+            url: '@nicolas',
+            seguidores: 1
+        }
+    },
+    nomeCompleto: function() {
+        return `${this.nome} ${this.sobrenome}`;
+    }
 
-let nome = "nicolas";
-let idade = 11;
+
+};
+
+function pegaNomeCompleto(obj) {
+    return obj.nome+' '+obj.sobrenome;
+
+}
+
+console.log(pegaNomeCompleto(pessoa))
+*/
+
+let info = [ 'nicolas correa', 'nicolas', 'correa', '@nicolas'];
+
+let [, nome, sobrenome ] = info;
+
+console.log(nome, sobrenome);
 
 
-let frase = ` meu nome é ${nome} eu tenho ${idade} anos e ano que vem eu faço`
+function criar () {
+    let a = [1,2,3]
+    return [a]
+}
 
- console.log(frase);
+let [a,b,c] = criar();
+
+console.log(a,b,c);
