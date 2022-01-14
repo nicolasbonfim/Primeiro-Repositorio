@@ -108,3 +108,5 @@ round arredonda o numero
 clearInterval para o código
 
 setTimeout espera o tempo e roda um numero X
+
+=> serve para criar uma funçao
