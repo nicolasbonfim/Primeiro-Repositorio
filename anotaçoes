@@ -110,3 +110,8 @@ clearInterval para o código
 setTimeout espera o tempo e roda um numero X
 
 => serve para criar uma funçao
+
+incloudes retorna um valor false ou true
+
+repeat repete a funçao até o valor digitado
+
