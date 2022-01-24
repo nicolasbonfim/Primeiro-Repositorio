@@ -115,3 +115,21 @@ incloudes retorna um valor false ou true
 
 repeat repete a funçao até o valor digitado
 
+quando voce chama alguma informaçao externa é requisiçao
+
+
+JSON = javascript object notation
+
+json é um objeto javascript para fazer a comunicaçao
+entre requisiçoes tanto para guarda informaçoes,
+enviar e receber informaçoes
+
+JSON.parse serve para transforma uma string em um JSON
+JSON.parse serve para transforma um JSON em uma string
+
+codigo sincrono executa linha a linha e a proxima
+linha tem que espera a linha anterior ser executada
+para ser executada.
+
+codigo assincrono nao espera a linha anterior ser executada
+e ja executa a proxima linha
