@@ -133,3 +133,25 @@ para ser executada.
 
 codigo assincrono nao espera a linha anterior ser executada
 e ja executa a proxima linha
+
+
+CALLBACK é uma funçao para esperar o resultado e quando
+chega o resultado ela lida com ele
+
+PROMISE ele promete que daqui algum tempo
+ mostra um resultado.
+    Para usar a PROMISE precisa armazenar a funçao
+ dentro de uma variavel (utilizando tambem o then)
+
+ EXEMPLO:
+
+ let temp = pegarTemperatura()
+temp.then(function(resultado) {
+    console.log("TEMPERATURA..."+resultado)
+})
+
+
+fetch retorna uma promessa, uma PROMISE
+
+
+ 
