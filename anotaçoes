@@ -153,5 +153,15 @@ temp.then(function(resultado) {
 
 fetch retorna uma promessa, uma PROMISE
 
+await executa espera o resultado depois de executar
+ele continua e consequentemente para de executar
+
+
+async indica que ira usar um await (sem ele o await
+nao funciona)
+
+corpo da requisiçao sao os dados que sao enviados junto
+com o corpo da requisiçao
+
 
  
