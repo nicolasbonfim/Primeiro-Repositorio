@@ -164,4 +164,18 @@ corpo da requisiçao sao os dados que sao enviados junto
 com o corpo da requisiçao
 
 
+.files serve para arquivos
+
+quando voce quiser pegar só um arquivo voce pega só o 
+primeiro: [0]
+
+o append está dizendo que está incluindo mais um item
+
+accept serve para aceita apenas aquele tipo de arquivo
+(se usa em html)
+
+appendChild basicamente adiciona um novo elemento sem
+ sibstituir os demais, se vc usar o 
+innerHTML tu vai substituir todo conteudo ja existente.
+
  
